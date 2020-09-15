@@ -1,20 +1,21 @@
-import { registerRootComponent } from 'expo';
+import React, { Component } from "react";
+import { registerRootComponent } from "expo";
 
-import App from './App';
+import TaskManagerComponent from "./components/TaskManagerComponent";
 
 //Redux
-import {createStore} from 'redux';
-import {Provider} from 'react-redux';
+import { createStore } from "redux";
+import { Provider } from "react-redux";
 
-import allReducers from './reducers';
+import allReducers from "./reducers";
 
 let store = createStore(allReducers);
 
-const App = () => {
-    <Provider store={store}>
-
-    </Provider>
-}
+const App = () => (
+  <Provider store={store}>
+    <TaskManagerComponent />
+  </Provider>
+);
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in the Expo client or in a native build,
