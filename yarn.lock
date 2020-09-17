@@ -6656,7 +6656,7 @@ react-refresh@^0.4.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.4.3.tgz#966f1750c191672e76e16c2efa569150cc73ab53"
   integrity sha512-Hwln1VNuGl/6bVwnd0Xdn1e84gT/8T9aYNL+HAKDArLCS7LWjwr7StE30IEYbIkx0Vi3vs+coQxe+SQDbGbbpA==
 
-react-saga@0.3.1:
+react-saga@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/react-saga/-/react-saga-0.3.1.tgz#61a3ec577f79b4dcb389a4f496a5036a7fea31a7"
   integrity sha512-ANS7jcVOZfnzwn7hAQzfjI0ZmU16vdpn5OOKV+gnXRfTuXU8DQT/ivXoTtFgfsTYCM0ogr+A3QFm6JoT90bOTQ==
